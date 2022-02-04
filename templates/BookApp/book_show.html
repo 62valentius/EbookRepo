@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Read Book</title>
+</head>
+<body>
+{#    <a href="{% static "VaibhavFH.pdf#toolbar=0" %}">Click me</a>#}
+    <embed src="{% static "VaibhavFH.pdf" %}#pagemode=none&toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0" width="1260" height="710" />
+{#    <embed src="{% static "VaibhavFH.pdf" %}"/>#}
+</body>
+</html>
